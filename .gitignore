@@ -1,0 +1,16 @@
+# --- Directorios de Entorno Virtual y Librerías ---
+/venv/
+/Include/
+/Lib/
+/Scripts/
+__pycache__/
+
+# --- Archivos de Salida del Bot (Generados) ---
+/output_content/
+
+# --- Archivos de Salida (por si se guardan fuera de output_content) ---
+*.mp3
+*.mp4
+*.txt
+*.exe # Si creas un ejecutable
+.env # Para variables de entorno sensibles (como claves API)
